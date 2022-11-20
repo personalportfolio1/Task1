@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.wrapper{
+    height:100vh;
+    width:100%;
+}
+/* navbar */
+.navbar img{
+    padding-left:100px;
+    height:40px;
+}
+.navbar-nav{
+    margin-right:60px;
+}
+.navbar-nav .nav-link {
+    padding:30px;
+}
+.navbar-nav .nav-item{
+padding-left:30px;
+}
+.navbar-nav .nav-item .nav-link{
+    color:black;
+}
+.banner{
+    color:white;
+    height:400px;
+    background-color: rgb(67, 218, 238);
+
+}
+#heading{
+    font-size:35px;
+}
+.fa-heart{
+    padding-left:30px;
+    padding-right:20px;
+   font-size:35px;
+
+}
+.banner .content{
+text-align: center;
+padding-top:60px;
+}
+.button button{
+    color:white;
+    background-color: red;
+    border-radius:25px;
+    border:0px;
+    outline:none;
+    padding:10px;
+    width:170px;
+    font-weight: bold;
+}
+.card-wrapper{
+    display:flex;
+    justify-content: center;
+   
+    flex-wrap:wrap;
+}
+.card-wrapper .card{
+    width:300px;
+   height:auto;
+    margin:20px;
+    box-shadow:4px 4px 25px rgb(154, 144, 144);
+    transform: translate(-130deg);
+    position:relative;
+    transform: translateY(-160px);
+   z-index: 10;
+}
+.card img{
+    width:100px;
+    height:150px;
+}
+.card-wrapper .card p{
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 15px;
+    line-height:25px;
+}
+.card img{
+    padding-top:40px;
+    padding-bottom:20px;
+}

@@ -1,0 +1,58 @@
+@media screen and (max-width:440px)
+{
+    .nav-link{
+        text-align:center;
+    }
+    .navbar-toggler,
+    .navbar-toggler:focus{
+        border:0px;
+        outline:none;
+        box-shadow:0px;
+    }
+    #heading{
+        font-size:28px;
+    }
+    .card img{
+        width:90px;
+        height:130px;
+    }
+}
+@media screen and (max-width:760px)
+{
+    .nav-link{
+        text-align:center;
+    }
+    .navbar-toggler,
+    .navbar-toggler:focus{
+        border:0px;
+        outline:none;
+        box-shadow:0px;
+    }
+    #heading{
+        font-size:28px;
+    }
+    .banner .content{
+        padding-top:40px;
+        }
+    .button button{
+        padding:5px;
+        width:120px;
+    }
+    
+}
+
+@media screen and (max-width:999px)
+{
+    .nav-link{
+        text-align:center;
+    }
+    .navbar-toggler,
+    .navbar-toggler:focus{
+        border:0px;
+        outline:none;
+        box-shadow:0px;
+    }
+    #heading{
+        font-size:30px;
+    }
+}
